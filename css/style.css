@@ -39,6 +39,7 @@ button{
     background-color: rgba(0, 0, 0, 0.829) ;
     color: #fff;
 }
+
 .flex-container-nav{
     display: flex;
     justify-content: space-around;
@@ -63,6 +64,7 @@ button{
 .flex-container-head h1, p{
     margin-top: 50px;
 }
+
 .title{
     margin-top: 30px;
 }
@@ -80,23 +82,32 @@ button{
     padding: 15px;
 }
 
+h1{
+    font-size: 35px;
+}
+
 /* fine dell'header */
+/* inizio main */
+
 .main-flex-container{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .main-flex-item-1{
-    background-color: aqua;
-    flex-basis: 500px;
-    height: 300px;
+    flex-basis: 600px;
+    height: 400px;
+    background-image: url(../img/item1.svg);
+    background-size: cover;
 }
 
 .main-flex-item-2{
-    background-color: pink;
-    flex-basis: 300px;
-    height: 300px;  
+    flex-basis: 400px;
+    height: 400px;  
+    text-align: center;
+    padding: 30px;
 }
 
 .main-flex-container-2{
@@ -107,18 +118,28 @@ button{
     background-color: lightgrey;
 }
 
+.main-flex-container-2 .main-flex-item-1{
+    background-image: url(../img/item2.svg);
+}
+
+.alt{
+    background-image: url(../img/item3.svg);
+}
+
 .last-section{
     background-color: lightgray;
     padding: 20px;
 }
 
 .last-sect-child{
-    background-color: green;
     width: 45%;
-    height: 500px;
     margin: auto;
+    margin-top: 50px;
 }
+
 /* fine del main */
+/* inizio footer */
+
 footer{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.829)   
