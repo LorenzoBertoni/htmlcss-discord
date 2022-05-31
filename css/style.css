@@ -29,13 +29,17 @@ a{
 
 button{
     background-color: #fff;
-    border-radius: 40%;
+    border-radius: 15px;
     padding: 12px;
     border: none;
     font-size: 20px;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 
+button:hover{
+    background-color: transparent;
+}
 .black-button{
     background-color: rgba(0, 0, 0, 0.829) ;
     color: #fff;
@@ -100,7 +104,6 @@ h1{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    flex-wrap: wrap;
 }
 
 .main-flex-item-1{
@@ -169,6 +172,10 @@ h1{
     background-color: rgba(69, 69, 160, 0.719);
     color: #fff;
     border: 1px solid rgba(69, 69, 160, 0.719);
+}
+
+.final-button-container button:hover{
+    background-color: transparent;
 }
 
 /* fine del main */
@@ -259,4 +266,8 @@ hr{
     background-color: rgba(69, 69, 160, 0.7);
     color: #fff;
     border: 1px solid rgba(69, 69, 160, 0.719);
+}
+
+.info-container button:hover{
+    background-color: transparent;
 }
