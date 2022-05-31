@@ -4,43 +4,83 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
 nav{
-    background-color: cyan;
-    height: 100px;
+    background-color: #255EE9;
 }
 
 header{
-    height: 500px;
-    background-color: blue;
+    height: 650px;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 20px;
 }
 
-.nav-content{
-    background-color: orange; 
+a{
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
 }
 
-.links{
-    background-color: orange;
+button{
+    background-color: #fff;
+    border-radius: 30%;
+    padding: 12px;
+    border: none;
+    font-size: 20px;
 }
 
+.black-button{
+    background-color: rgba(0, 0, 0, 0.829) ;
+    color: #fff;
+}
 .flex-container-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 10px;
 }
 
 .flex-container-head{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 50%;
+    margin: auto;
+    height: 500px;
 }
 
 .flex-item{
-    background-color: pink;
-    flex-basis: 700px;
-    height: 350px;
+    color: #fff;  
 }
 
+.flex-container-head h1, p{
+    margin-top: 50px;
+}
+.title{
+    margin-top: 30px;
+}
+
+.button-flex-container{
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.button-flex-container button{
+    margin-right: 10px;
+    padding: 15px;
+}
+
+/* fine dell'header */
 .main-flex-container{
     display: flex;
     justify-content: center;
@@ -78,7 +118,7 @@ header{
     height: 500px;
     margin: auto;
 }
-
+/* fine del main */
 footer{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.829)   
@@ -104,7 +144,6 @@ footer{
     width: 350px;
     background-color: tomato;
 }
-
 
 hr{
     color: white;
